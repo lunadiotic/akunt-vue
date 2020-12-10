@@ -59,7 +59,7 @@ export default {
         // state or data
         const transaction = reactive({
             title: '',
-            amout: '',
+            amount: '',
             time: '',
             type: ''
         });
