@@ -1,9 +1,9 @@
 <template>
     <div class="container my-5">
-        <div class="row">
-            <div class="col-12">
-                <router-link :to="{name: 'transaction.create'}" class="btn btn-primary mb-3">Add</router-link>
-                <div class="card">
+        <div class="row justify-content-center">
+            <div class="col-8">
+                <router-link :to="{name: 'transaction.create'}" class="btn btn-primary rounded shadow mb-3">Add</router-link>
+                <div class="card rounded shadow">
                     <div class="card-header">
                         <h5>Transaction List</h5>
                     </div>
