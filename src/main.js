@@ -6,7 +6,10 @@ import router from './router'
 // import bootstrap, popper
 import 'bootstrap/dist/css/bootstrap.css'
 import 'popper.js/dist/popper'
-import 'bootstrap/dist/js/bootstrap'
+import 'bootstrap'
+
+// import custom css
+import '@/assets/app.css'
 
 const app = createApp(App)
 

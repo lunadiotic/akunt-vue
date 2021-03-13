@@ -91,9 +91,3 @@ export default {
     }
 }
 </script>
-
-<style>
-    body {
-        background: lightgray;
-    }
-</style>
